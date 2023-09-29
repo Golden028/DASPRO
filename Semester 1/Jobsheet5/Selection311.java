@@ -19,15 +19,15 @@ public class Selection311 {
                 System.out.println(operand1 + " + " + operand2 + "=" + result);
                 break;
             case '-':
-                result = operand1 + operand2;
+                result = operand1 - operand2;
                 System.out.println(operand1 + " - " + operand2 + "=" + result);
                 break;
             case '*':
-                result = operand1 + operand2;
+                result = operand1 * operand2;
                 System.out.println(operand1 + " * " + operand2 + "=" + result);
                 break;    
             case '/':
-                result = operand1 + operand2;
+                result = operand1 / operand2;
                 System.out.println(operand1 + " / " + operand2 + "=" + result);
                 break;
         }
