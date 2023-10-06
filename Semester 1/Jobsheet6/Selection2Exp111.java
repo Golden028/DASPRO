@@ -7,7 +7,7 @@ public class Selection2Exp111 {
         year = input11.nextInt();
 
         if(year%4 == 0)
-            if(year%200 != 0){
+            if(year%100 != 0){
                 System.out.println("Leap year");
             }else {
                 System.out.println("Not a leap year");
