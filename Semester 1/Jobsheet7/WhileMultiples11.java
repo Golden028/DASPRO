@@ -8,7 +8,6 @@ public class WhileMultiples11 {
         multiple = input11.nextInt();
         int i=1;
 
-        
         while(i<=50){
             if(i%multiple == 0){
                 sum = sum + i;
