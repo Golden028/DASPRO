@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Selection2Exp211 {
     public static void main(String[] args) {
         int totalAngle=0, angle1=0, angle2=0, angle3=0;

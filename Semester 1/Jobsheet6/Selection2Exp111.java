@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Selection2Exp111 {
     public static void main(String[] args) {
         int year;

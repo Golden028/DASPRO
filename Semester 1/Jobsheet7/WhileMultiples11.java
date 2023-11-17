@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class WhileMultiples11 {
     public static void main(String[] args) {
         Scanner input11 = new Scanner(System.in);

@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class WhileOvertimePay11 {
     public static void main(String[] args) {
         Scanner input11 = new Scanner(System.in);
