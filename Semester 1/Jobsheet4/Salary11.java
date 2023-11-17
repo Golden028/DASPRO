@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Salary11 {
     public static void main(String[] args) {
-        Scanner input =new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         int numAttendance, numAbsence, totalSalary;
         int salary=40000, salaryDeduction=25000;
         System.out.println("Input attendance number: ");
@@ -10,5 +10,6 @@ public class Salary11 {
         numAbsence = input.nextInt();
         totalSalary=(numAttendance*salary)-(numAbsence*salaryDeduction);
         System.out.println("Total salary: "+totalSalary);
+        input.close();
     }
 }

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Selection2Exp211 {
     public static void main(String[] args) {
-        int angle=0, totalAngle=0, angle1=0, angle2=0, angle3=0;
+        int totalAngle=0, angle1=0, angle2=0, angle3=0;
         Scanner input11 = new Scanner(System.in);
         System.out.print("Input angle 1 = ");
         angle1 = input11.nextInt();
@@ -29,6 +29,7 @@ public class Selection2Exp211 {
                 }else{
                 System.out.println("not a triangle");
                 }
+        input11.close();
 
     }
 }

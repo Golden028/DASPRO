@@ -20,5 +20,6 @@ public class NestedLoop_2341720216 {
             }
             System.out.println();            
         }
+        sc.close();
     }
 }

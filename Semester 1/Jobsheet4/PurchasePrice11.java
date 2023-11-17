@@ -13,5 +13,6 @@ public class PurchasePrice11 {
         purchasePrice=totalPrice-totalDiscount;
         System.out.println("Total discount: "+totalDiscount);
         System.out.println("Final purchase price: "+purchasePrice);
+        input.close();
     }
 }

@@ -10,5 +10,6 @@ public class Triangle11 {
         height = sc.nextInt();
         area = base * height / 2;
         System.out.println("Area of the triagle: " + area);
+        sc.close();
     }
 }

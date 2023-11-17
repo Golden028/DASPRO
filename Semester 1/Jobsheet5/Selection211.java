@@ -35,5 +35,6 @@ public class Selection211 {
             predikat = "E";
         }
         System.out.println("predikat nilai Anda "+predikat);
+        input11.close();
     }
 }

@@ -12,5 +12,6 @@ public class Bank11 {
         final_sav_amount = interest + init_sav_amount;
         System.out.println("Interest: "+ interest);
         System.out.println("Final savings amount: "+ final_sav_amount);
+        sc.close();
     }
 }

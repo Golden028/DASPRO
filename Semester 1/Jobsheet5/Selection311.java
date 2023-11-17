@@ -31,5 +31,6 @@ public class Selection311 {
                 System.out.println(operand1 + " / " + operand2 + "=" + result);
                 break;
         }
+        input11.close();
     }
 }

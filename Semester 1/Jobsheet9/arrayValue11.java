@@ -15,5 +15,6 @@ public class arrayValue11 {
                 System.out.println("Student " + i + " Not pass!");
             }
         }
+        sc.close();
     }
 }

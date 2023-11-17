@@ -25,5 +25,6 @@ public class DoWhileLeaveEntitlement11 {
                 }
             }
         } while (leaveEntitlement > 0);
+        input11.close();
     }
 }

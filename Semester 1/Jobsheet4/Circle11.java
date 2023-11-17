@@ -10,5 +10,6 @@ public class Circle11 {
         circumference = 2*3.14*r;
         System.out.println("Are: "+area);
         System.out.println("Circumference: "+circumference);
+        input.close();
     }
 }

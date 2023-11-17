@@ -19,6 +19,7 @@ public class Quiz {
             menu = input.nextLine().charAt(0);
             input.nextLine();
         } while(menu=='Y' || menu=='y');
+        input.close();
     }
     
 }

@@ -23,5 +23,6 @@ public class CinemaWithScanner11 {
                 break;
             }
         }
+        sc.close();
     }
 }
