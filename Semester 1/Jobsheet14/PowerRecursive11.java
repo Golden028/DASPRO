@@ -18,7 +18,7 @@ public class PowerRecursive11 {
 
         System.out.print("Result of "+base+" power "+power+" = ");
         int result = calculatePower(base, power);
-        System.out.println("1 = "  + result);
+        System.out.print("1 = "  + result + "!");
 
         input.close();
     }
